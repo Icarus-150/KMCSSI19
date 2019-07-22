@@ -20,8 +20,8 @@ body {
 
 #header {
   color: white;
-  background-color: #4a75e6;
-  font-size: 20px;
+  background-image: url(http://ichef.bbci.co.uk/wwfeatures/wm/live/624_351/images/live/p0/52/j5/p052j5kp.jpg);
+  font-size: 30px;
   height: 200px;
   margin: 0px;
   padding-top: 3%;
@@ -30,16 +30,16 @@ body {
 }
 
 #links {
-  background-color: #Febc1f;
-  height: 50px;
+  background-color: #C0C0C1;
+  height: auto;
   text-align: center;
 }
 
 .link {
-  color: grey;
-  display: inline-block;
-  font-weight: bold;
+  color: white;
+  display: inline-table;
+  font-weight: bolder;
   margin-left: 10%;
   margin-right: 10%;
-  margin-top: 2%;
+  margin-top: 5%;
 }
