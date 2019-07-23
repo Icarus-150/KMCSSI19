@@ -1,0 +1,21 @@
+.container {
+  display: grid;
+  grid-template-columns: 50% 50% ;
+  grid-template-rows: 50% 50% ;
+  grid-gap: 5px;
+}
+.a {
+  background-color: #26a69a;
+}
+
+.text {
+  color: white;
+  font-family: fantasy;
+  font-size: 300%;
+}
+.box {
+  height: 100%;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
