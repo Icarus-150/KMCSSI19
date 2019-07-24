@@ -1,0 +1,55 @@
+/*
+ * Copyright 2018 Google LLC
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+ .container {
+   display: grid;
+   grid-template-columns: [line1]50px [line2]2fr [line3]2fr [line4]2fr  [line5]2fr
+   [line6]2fr  [line7]50px;
+   grid-template-rows: 50px auto 150px auto 40px;
+
+ }
+ #b{
+background-color: black;
+   }
+   #title{
+     grid-column: 2 /span 5;
+     grid-row: 2;
+   }
+   .borderSide{
+     grid-column: 1;
+     grid-row: 1/span 5;
+   }
+   .bordertop {
+     grid-column: 2 /span 4;
+     grid-row: 1;
+   }
+   .borderside2 {
+     grid-column: 6;
+     grid-row: 1/span 5;
+
+   }
+   .borderbottom{
+     grid-column: 2/span 4;
+     grid-row: 5;
+   }
+.box3{
+  grid-column: 4/span 2;
+}
+#caption{
+  grid-column: 2 /span 3
+}
+
+
+/* Style remaining grid elements */

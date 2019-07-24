@@ -14,22 +14,42 @@
  * limitations under the License.
  */
 
-.container {
-  display:grid;
-  /* Style the template for the grid */
-}
+ .container {
+   display: grid;
+   grid-template-columns: [line1]20px [line2]auto [line3]auto [line4]auto  [line5]auto
+   [line6]auto  [line7]20px;
+   grid-template-rows: 20px 20px auto 20px 20px;
+
+ }
+ .text {
+   color: white;
+   font-family: fantasy;
+   font-size: 300%;
+ }
+ .box {
+   height: 100%;
+   position: relative;
+   text-align: center;
+   width: 100%;
+ }
 
 /* Making border black */
 #b {
   background-color: black;
 }
+#photo{
+
+}
+#captions{
+
+}
 
 #title {
-  grid-column: span 12;
+  grid-column: 1 /span 7;
 }
 
 .photo {
-  grid-column: /*insert format*/;
+  grid-column: [line1] /span [line7];
 }
 
 /* Style remaining grid elements */
