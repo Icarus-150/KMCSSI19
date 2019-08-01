@@ -10,21 +10,30 @@
 # students.remove("javi")
 # print(students)
 #my_list.insert(index,element)
+#
+# smith_siblings = ["emily","monique","giovani","sonny","bean","erin"]
+# for index in range(len(smith_siblings)):
+#     smith_siblings[index] = smith_siblings[index] + " Smith"
+#     print(smith_siblings)
+# # for name in smith_siblings:
+# #     print(name + " Smith")
+# # print(len(smith_siblings))
+# super_heroes = ["captain Msrvel","wonder woman","storm","kamala khan","bumblebee","jessica jones"]
+#
+#
+# print(super_heroes)
+# demoted_hero = str(raw_input("what superhero do you want to eliminate from the top 5 ?    "))
+# if demoted_hero in super_heroes:
+#     super_heroes.remove(demoted_hero)
+#     print("top 5 super_heroes:" ,superheroes )
+# else:
+#     print("hero not found.   ")
 
-smith_siblings = ["emily","monique","giovani","sonny","bean","erin"]
-for index in range(len(smith_siblings)):
-    smith_siblings[index] = smith_siblings[index] + " Smith"
-    print(smith_siblings)
-# for name in smith_siblings:
-#     print(name + " Smith")
-# print(len(smith_siblings))
-super_heroes = ["captain Msrvel","wonder woman","storm","kamala khan","bumblebee","jessica jones"]
+states = {"NY": "New York ", "CA": "California", "TX": "Texas" }
+#
+#name=states[raw_input("put abbreviation here:  ")]
+# print(name)
 
 
-print(super_heroes)
-demoted_hero = str(raw_input("what superhero do you want to eliminate from the top 5 ?    "))
-if demoted_hero in super_heroes:
-    super_heroes.remove(demoted_hero)
-    print("top 5 super_heroes:" ,superheroes )
-else:
-    print("hero not found.   ")
+for abbreviation in states:
+    print (abbreviation + " is short for " + states[abbreviation] )
